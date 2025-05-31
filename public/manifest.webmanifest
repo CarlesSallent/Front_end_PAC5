@@ -1,6 +1,6 @@
 {
-  "name": "angular-coktail-pwa",
-  "short_name": "angular-coktail-pwa",
+  "name": "Coktail-pwa",
+  "short_name": "Cocktails",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",

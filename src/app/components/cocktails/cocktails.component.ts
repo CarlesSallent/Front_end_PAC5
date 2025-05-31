@@ -19,7 +19,7 @@ export class CocktailsComponent implements OnInit {
 
   cocktails: Cocktail[] = [];
 
-  viewType: 'grid' | 'card' = 'card';
+  viewType: 'grid' | 'card' = 'grid';
 
   constructor(private cocktailService: CocktailsService) {}
 
