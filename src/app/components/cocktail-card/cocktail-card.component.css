@@ -1,0 +1,11 @@
+.card-container {
+  background-color: #ddd;
+}
+
+.fixed-title {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

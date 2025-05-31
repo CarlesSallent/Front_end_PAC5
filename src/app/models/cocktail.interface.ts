@@ -6,7 +6,5 @@ export interface Cocktail {
   strCategory: string;
   strAlcoholic: string;
   strGlass: string;
-  strIngredient1?: string;
-  strIngredient2?: string;
-  strIngredient3?: string;
+  [key: `strIngredient${number}`]: string | null;
 }
