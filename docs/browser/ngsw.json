@@ -1,0 +1,96 @@
+{
+  "configVersion": 1,
+  "timestamp": 1748709740026,
+  "index": "/Front_end_PAC5/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/Front_end_PAC5/favicon.ico",
+        "/Front_end_PAC5/index.html",
+        "/Front_end_PAC5/main-UYHRQIMH.js",
+        "/Front_end_PAC5/manifest.webmanifest",
+        "/Front_end_PAC5/polyfills-B6TNHZQ6.js",
+        "/Front_end_PAC5/styles-36AW6TKX.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/Front_end_PAC5/assets/css/animate.css",
+        "/Front_end_PAC5/icons/icon-128x128.png",
+        "/Front_end_PAC5/icons/icon-144x144.png",
+        "/Front_end_PAC5/icons/icon-152x152.png",
+        "/Front_end_PAC5/icons/icon-192x192.png",
+        "/Front_end_PAC5/icons/icon-384x384.png",
+        "/Front_end_PAC5/icons/icon-512x512.png",
+        "/Front_end_PAC5/icons/icon-96x96.png"
+      ],
+      "patterns": [
+        "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/bootstrap@5\\.3\\.6\\/dist\\/css\\/bootstrap\\.min\\.css"
+      ]
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "cocktails-api",
+      "patterns": [
+        "https:\\/\\/www\\.thecocktaildb\\.com\\/api\\/json\\/v1\\/1\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 3600000,
+      "timeoutMs": 1000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/Front_end_PAC5/assets/css/animate.css": "1cd1ef926d3aff6887e6c02933e818b8a78db0b0",
+    "/Front_end_PAC5/favicon.ico": "55b9ff6f5f833b72d6e2ebab0d4392d93285b272",
+    "/Front_end_PAC5/icons/icon-128x128.png": "8fa630188bd5c9655b87e4a6122a5289e1551d41",
+    "/Front_end_PAC5/icons/icon-144x144.png": "24b6e617d00e35f34dd7446fe3b361adb0347e38",
+    "/Front_end_PAC5/icons/icon-152x152.png": "38de199b7e169f238f07ee1412daaff18937b290",
+    "/Front_end_PAC5/icons/icon-192x192.png": "74c0d211aa7b94bf0bfa83ec953b54130f1c4be6",
+    "/Front_end_PAC5/icons/icon-384x384.png": "e26c100d3b4f137880d4972fdf1e759129c4d89f",
+    "/Front_end_PAC5/icons/icon-512x512.png": "bfbd2f8446a7caafdc58d2a4b97ee0e4d99f1ae7",
+    "/Front_end_PAC5/icons/icon-96x96.png": "07f321cef8ebf320937a31421f4261e6a7d7c568",
+    "/Front_end_PAC5/index.html": "63daf63a42614a46973a36ceae87869af16f81e5",
+    "/Front_end_PAC5/main-UYHRQIMH.js": "f89652c5d39c6b156fbc1f8dbf526cbd048259ef",
+    "/Front_end_PAC5/manifest.webmanifest": "6328186a155a1cd5820958acad9ee77d59de0673",
+    "/Front_end_PAC5/polyfills-B6TNHZQ6.js": "bf76ac291d7f51c1139b7edcf86b359a30c08c64",
+    "/Front_end_PAC5/styles-36AW6TKX.css": "173fa74a40cd51f896da8df76e2a21ac7900097e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

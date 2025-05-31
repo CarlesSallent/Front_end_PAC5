@@ -13,9 +13,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angular-coktail-pwa",
+            "outputPath": "docs",
             "index": "src/index.html",
-            "browser": "src/main.ts",
+            "browser": "src/main.ts",            
+            "baseHref": "/Front_end_PAC5/",
             "polyfills": [
               "zone.js"
             ],
@@ -92,6 +93,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
