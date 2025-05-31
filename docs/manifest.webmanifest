@@ -2,8 +2,11 @@
   "name": "Coktail-pwa",
   "short_name": "Cocktails",
   "display": "standalone",
-  "scope": "./",
-  "start_url": "./",
+  "scope": "/Front_end_PAC5/",
+  "start_url": "/Front_end_PAC5/",
+  "background_color": "#ffffff",
+  "theme_color": "#ff6f61",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "icons/icon-72x72.png",
